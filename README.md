@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio CV | Keshaf Rifqy Mohammad</title>
+    <style>
+        /* Gaya Visual Profesional */
+        :root {
+            --primary: #003366; /* Biru Gelap Profesional */
+            --secondary: #00509d;
+            --accent: #ffd700; /* Warna Emas untuk aksen prestasi */
+            --text: #333;
+            --light: #f8f9fa;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 3rem 1rem;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: -40px auto 40px;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        h1 { margin: 0; font-size: 2.2rem; letter-spacing: 1px; }
+        h2 { 
+            color: var(--primary); 
+            border-left: 5px solid var(--secondary); 
+            padding-left: 15px; 
+            margin-top: 35px;
+            font-size: 1.5rem;
+        }
+
+        .contact-info { margin-top: 15px; font-weight: 300; }
+        .contact-info span { margin: 0 10px; opacity: 0.9; }
+
+        .summary { font-size: 1.1rem; color: #555; font-style: italic; text-align: center; margin-bottom: 30px; }
+
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+
+        .card {
+            padding: 20px;
+            border: 1px solid #eee;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+        .card:hover { border-color: var(--secondary); background: #fcfcfc; }
+
+        .tag {
+            display: inline-block;
+            background: #e9ecef;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 0.85rem;
+            margin: 4px;
+            color: var(--primary);
+            font-weight: 600;
+        }
+
+        .achievement-list { list-style: none; padding: 0; }
+        .achievement-list li::before { content: "🏆 "; }
+        .achievement-list li { margin-bottom: 10px; padding: 10px; background: #fffdf0; border-radius: 6px; }
+
+        footer { text-align: center; padding: 30px; color: #888; font-size: 0.9rem; }
+
+        @media (max-width: 768px) {
+            .grid { grid-template-columns: 1fr; }
+            .container { margin: 10px; padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    [cite_start]<h1>KESHAF RIFQY MOHAMMAD</h1> [cite: 1]
+    <div class="contact-info">
+        [cite_start]<span>📍 Bogor, Jawa Barat</span> [cite: 3]
+        [cite_start]<span>📞 081213038930</span> [cite: 2]
+        [cite_start]<span>📧 <a href="mailto:keshaf.rifqy.mohammad-2025@ftmm.unair.ac.id" style="color:white;">Email Unair</a></span> [cite: 2]
+    </div>
+</header>
+
+<div class="container">
+    <p class="summary">
+        [cite_start]"Mahasiswa aktif Teknik Elektro yang berfokus pada inovasi teknologi, berpikir sistematis, dan berpengalaman dalam organisasi serta kolaborasi tim." [cite: 4, 5]
+    </p>
+
+    <section>
+        <h2>Pendidikan</h2>
+        <div class="card">
+            [cite_start]<strong>Universitas Airlangga</strong> [cite: 18]<br>
+            [cite_start]S1 Teknik Elektro (2025 - Sekarang) [cite: 18]
+        </div>
+        <div style="margin-top:10px;" class="card">
+            [cite_start]<strong>SMKN 1 Ciomas - Bogor</strong> [cite: 15]<br>
+            [cite_start]Teknik Otomotif (2022 - 2025) [cite: 15]<br>
+            <small>Rata-rata Nilai: 87.75 | [cite_start]Siswa Eligible 1</small> [cite: 16, 17]
+        </div>
+    </section>
+
+    <section>
+        <h2>Pengalaman Magang</h2>
+        <div class="grid">
+            <div class="card">
+                <strong>PT. [cite_start]Bhumi Phala Perkasa</strong> [cite: 13]<br>
+                [cite_start]<small>Jan 2024 - Jun 2024</small> [cite: 13]
+            </div>
+            <div class="card">
+                [cite_start]<strong>Auto2000 Yasmin Bogor</strong> [cite: 12]<br>
+                [cite_start]<small>Jan 2023 - Jun 2023</small> [cite: 12]
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Keahlian & Kemampuan</h2>
+        <div class="grid">
+            <div>
+                <strong>Teknis (Hard Skills):</strong><br>
+                [cite_start]<span class="tag">Basic Electrical System</span> [cite: 8]
+                [cite_start]<span class="tag">Microsoft Office</span> [cite: 8]
+                [cite_start]<span class="tag">Canva Design</span> [cite: 8]
+            </div>
+            <div>
+                <strong>Interpersonal (Soft Skills):</strong><br>
+                [cite_start]<span class="tag">Time Management</span> [cite: 9]
+                [cite_start]<span class="tag">Self Driven</span> [cite: 9]
+                [cite_start]<span class="tag">Team Collaboration</span> [cite: 9]
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Prestasi & Bahasa</h2>
+        <ul class="achievement-list">
+            [cite_start]<li>Juara 1 Pencak Silat Nasional (Kelas G) [cite: 11]</li>
+            [cite_start]<li>Juara 2 Pencak Silat Tingkat Kota [cite: 10]</li>
+            [cite_start]<li>Skor Kemampuan Bahasa Inggris (ELPT/TOEIC): 505 [cite: 32, 38]</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Organisasi</h2>
+        <div class="card">
+            [cite_start]<strong>Ekstrakurikuler Pencak Silat & English Club</strong> [cite: 20]<br>
+            [cite_start]<small>2022 - 2025</small> [cite: 21]<br>
+            [cite_start]Melatih kedisiplinan, keberanian, kerja sama tim, dan nilai-nilai integritas. [cite: 23, 24]
+        </div>
+    </section>
+</div>
+
+<footer>
+    &copy; 2026 Keshaf Rifqy Mohammad | [cite_start]Mahasiswa Teknik Elektro Universitas Airlangga [cite: 18]
+</footer>
+
+</body>
+</html>
